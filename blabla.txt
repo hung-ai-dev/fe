@@ -1,0 +1,46 @@
+
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<!--
+* A modified version of HackerTyper.Net
+* Orignal pic: ./me.jpg
+* Using picascii.com for converting picture to ASCII text
+* To get the song's name: decode the name of mp3 file with base64
+* Created by BQC
+-->
+
+<!--
+*(c) Copyright 2011 Simone Masiero. Some Rights Reserved. 
+*This work is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 License
+-->
+<head>
+    <meta charset="utf-8">
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js' type='text/javascript'></script>
+    <script src='./js/script.js' type='text/javascript'></script>
+    <title>Push any key to see the magic ;)</title>
+    <script type='text/javascript'>
+        Typer.speed = 40;
+        Typer.file = './bqc.txt';
+        Typer.init();
+    </script>
+    <style>
+	     header
+	           {
+	           	   background-color: black;
+	           	   color: white;
+	                 text-align: center;
+	                 font-size: 50%; 
+                         padding:20px;
+	             }
+
+    </style> 
+</head>
+<body>
+    <div id='console'></div>
+    <audio style="display:none" autoplay="true" loop="true"><source src="V2ludGVyIEluIE15IEhlYXJ0IC0gQmVmb3Vy.mp3"></audio>
+</body>
+</html>
+	
